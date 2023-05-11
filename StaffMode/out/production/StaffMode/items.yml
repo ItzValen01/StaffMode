@@ -1,0 +1,54 @@
+ModMode:
+  Compass:
+    name: "&bCompass"
+    lore:
+      - "&7Left click to teleport."
+    material: COMPASS
+    value: 0
+    slot: 0
+  Inspector:
+    name: "&bInspector"
+    lore:
+      - "&7Right click on a player"
+      - "&7to check his inventory."
+    material: BOOK
+    value: 0
+    slot: 1
+  WorldEdit_Wand:
+    name: "&bWorldEdit Wand"
+    lore:
+      - "&7You need WorldEdit permissions."
+    material: WOOD_AXE
+    value: 0
+    slot: 2
+  Freeze:
+    name: "&bFreeze"
+    lore:
+      - "&7Freeze a player or"
+      - "&7unfreezes player."
+    material: PACKED_ICE
+    value: 0
+    slot: 6
+  RandomTP:
+    name: "&bRandom TP"
+    lore:
+      - "&7Right click to teleport"
+      - "&7to a random player."
+    material: EYE_OF_ENDER
+    value: 0
+    slot: 7
+  Vanish:
+    Hidden:
+      name: "&bVanish &7» &cHidden"
+      lore:
+        - "&7Right click to make yourself"
+        - "&7visible to the players."
+      value: 10
+    Visible:
+      name: "&bVanish &7» &aVisible"
+      lore:
+        - "&7Right click to make yourself"
+        - "&7hidden to the players."
+      value: 8
+    material: INK_SACK
+    slot: 8

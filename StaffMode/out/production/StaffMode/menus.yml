@@ -1,0 +1,42 @@
+Inspector:
+  name: "&bInspect"
+  Items:
+    Health:
+      name: "&bHealth: &c"
+      material: APPLE
+      value: 0
+    Food:
+      name: "&bFood: &6"
+      material: BREAD
+      value: 0
+    EXP:
+      name: "&bEXP: &e"
+      material: EXP_BOTTLE
+      value: 0
+    Freeze:
+      Frozen: "&bFrozen"
+      NoFrozen: "&bNo Frozen"
+      material: BLAZE_POWDER
+      value: 0
+    Decorative:
+      material: STAINED_GLASS_PANE
+      value: 9
+PlayerInfo:
+  name: "&bPlayer &3%player%"
+  Items:
+    Info:
+      name: "&3%player%"
+      lore:
+        - ""
+        - "&fRank: %vault_prefix%"
+        - "&fExperience: &3%player_exp_to_level%"
+        - "&fIP: &3%player_ip%"
+        - "&fOpped: &3%player_is_op%"
+    Banned:
+      name: "&bBanned: %banned%"
+      material: BARRIER
+      value: 0
+    Online:
+      name: "&bOnline: %online%"
+      material: PAPER
+      value: 0

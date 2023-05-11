@@ -1,0 +1,23 @@
+Inspector:
+  name: "&bInspect"
+  Items:
+    Health:
+      name: "&bHealth: &c"
+      material: APPLE
+      value: 0
+    Food:
+      name: "&bFood: &6"
+      material: BREAD
+      value: 0
+    EXP:
+      name: "&bEXP: &e"
+      material: EXP_BOTTLE
+      value: 0
+    Freeze:
+      Frozen: "&bFrozen"
+      NoFrozen: "&bNo Frozen"
+      material: BLAZE_POWDER
+      value: 0
+    Decorative:
+      material: STAINED_GLASS_PANE
+      value: 9

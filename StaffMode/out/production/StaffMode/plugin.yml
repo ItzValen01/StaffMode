@@ -1,0 +1,47 @@
+main: staffmode.itzvalen01.Main
+version: 2.0
+name: StaffMode
+
+commands:
+  mod:
+    description: Toggle the staff mode.
+    aliases:
+      - staff
+  staffchat:
+    description: Toggle the staff chat.
+    aliases:
+      - sc
+  adminchat:
+    description: Toggle the admin chat.
+    aliases:
+      - ac
+  vanish:
+    description: Toggle the vanish mode.
+    aliases:
+      - v
+  freeze:
+    description: Frozen the players.
+  unfreeze:
+    description: Unfrozen the players.
+  ss:
+    description: Frozen or unfrozen the players.
+  tp:
+    description: Teleport to player.
+  tphere:
+    description: Teleport player to your location.
+    aliases:
+      - s
+  tphereall:
+    description: Teleport all players online to your position.
+  request:
+    description: Send a request to staff.
+    aliases:
+      - helpop
+  report:
+    description: Report player
+  invsee:
+    description: View player inventory.
+  playerinfo:
+    description: View player information.
+    aliases:
+      - info

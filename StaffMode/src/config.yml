@@ -1,0 +1,38 @@
+Config:
+  frozen_chat: true
+  frozen_chat_format: "&c(Freeze) &f%player% &7» &f%message%"
+  Modules:
+    StaffChat: true
+    AdminChat: true
+    StaffJoin: true
+    Request: true
+    Reports: true
+  ChestPreview:
+    enabled: true
+    text: "&4&l[ALERT] &cYou will not be able to modify anything on the chest as it is a preview!"
+ScoreBoard:
+  enabled: true
+  ticks: 20
+  title: "&bStaffMode"
+  lines:
+    - "&c"
+    - "&bGameMode&7» %modmode_gamemode%"
+    - "&bChatMode&7» %modmode_chat%"
+    - "&bVanish&7» %modmode_vanish%"
+    - "&7"
+    - "&bOnline Players"
+    - "&3%server_online%&7/&3%server_max_players%"
+    - "&e"
+Variables:
+  GameMode:
+    Survival: "&eSurvival"
+    Creative: "&eCreative"
+    Adventure: "&eAdventure"
+    Spectator: "&eSpectator"
+  Chat:
+    Global: "&eGlobal"
+    Staff: "&3Staff"
+    Admin: "&cAdmin"
+  Vanish:
+    Activated: "&aVanished"
+    Desactivated: "&cVisible"
